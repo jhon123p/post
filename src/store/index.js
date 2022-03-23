@@ -3,10 +3,19 @@ import Vuex from "vuex";
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+const store = new Vuex.Store({
+    state: {
+        countHome: 0,
+        countInfo: 0,
+    },
+    getters: {},
+    mutations: {
+        increaseCount(state) {
+            state.countHome++;
+            state.countInfo++;
+        },
+    },
+    actions: {},
+    modules: {},
 });
+export { store };
