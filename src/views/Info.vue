@@ -19,6 +19,7 @@ import Number from "../components/Number.vue";
 import Tabela from "../components/tabela.vue";
 import NumberIn from "../components/NumberIn.vue";
 export default {
+  // eslint-disable-next-line vue/multi-word-component-names
   name: "Info",
   components: {
     Button,

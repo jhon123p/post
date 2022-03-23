@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: "MainTable",
   data() {
     return {
       items: [{ HOME: 60, INFO: 45 }],

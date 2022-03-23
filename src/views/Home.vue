@@ -10,16 +10,16 @@
       <p>DESAFIO FRONT</p>
     </div>
   </div>
-  
 </template>
 
 <script>
 import Button from "../components/Button.vue";
 import Logo from "../components/Logo.vue";
-import Number from "../components/Number.vue"
-import NumberIn from "../components/NumberIn.vue"
-import Tabela from "../components/tabela.vue"
+import Number from "../components/Number.vue";
+import NumberIn from "../components/NumberIn.vue";
+import Tabela from "../components/tabela.vue";
 export default {
+  // eslint-disable-next-line vue/multi-word-component-names
   name: "Home",
   components: {
     Button,
@@ -49,12 +49,11 @@ export default {
   width: 100vw;
   height: 100vh;
 }
-.par{
+.par {
   color: rgb(243, 0, 0);
   font: 50px;
   top: 20px;
   height: 50px;
   padding: 10px;
 }
-
 </style>
